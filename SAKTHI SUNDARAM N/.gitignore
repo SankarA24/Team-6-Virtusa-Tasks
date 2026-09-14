@@ -1,0 +1,8 @@
+# TypeScript dependencies
+TypeScript Programs/node_modules/
+
+# TypeScript compiled files
+TypeScript Programs/dist/
+
+# Java compiled files
+*.class

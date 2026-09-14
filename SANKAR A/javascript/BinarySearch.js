@@ -14,11 +14,19 @@ function binarySearch(array, target) {
     }
     return -1;
 }
-const numbers = [10, 20, 30, 40, 50, 60, 70];
-const target = 50;
-const result = binarySearch(numbers, target);
-if (result === -1) {
-    console.log("Element not found.");
+const input = process.argv.slice(2);
+if (input.length < 2) {
+    console.log("Please provide a sorted array and target.");
+    console.log("Example: node BinarySearch.js 10,20,30,40,50 40");
 } else {
-    console.log("Element found at index:", result);
+    const numbers = input[0].split(",").map(Number);
+    const target = Number(input[1]);
+    const result = binarySearch(numbers, target);
+    console.log("Array:", numbers);
+    console.log("Target:", target);
+    if (result === -1) {
+        console.log("Element not found.");
+    } else {
+        console.log("Element found at index:", result);
+    }
 }

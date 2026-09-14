@@ -2,7 +2,7 @@
 *.class
 
 # TypeScript generated JavaScript files
-SANKAR A/typescript/*.js
+*/typescript/*.js
 
 # Node.js dependencies
 node_modules/

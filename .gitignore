@@ -1,0 +1,11 @@
+# Java compiled files
+*.class
+
+# TypeScript generated JavaScript files
+SANKAR A/typescript/*.js
+
+# Node.js dependencies
+node_modules/
+
+# VS Code settings
+.vscode/

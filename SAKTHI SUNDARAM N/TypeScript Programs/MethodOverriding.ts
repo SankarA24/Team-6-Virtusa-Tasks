@@ -18,7 +18,7 @@ class Dog extends Animal {
     }
 }
 
-// Child class
+
 class Cat extends Animal {
 
     
